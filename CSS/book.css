@@ -1,0 +1,226 @@
+* 
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    height: 65px;
+    background-color: #04733E;
+    box-shadow: 0px 12px 4px rgba(237, 211, 211, 0.59);
+    top: 0;
+    z-index: 1;
+}
+nav ul{
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 19px;
+    font-family: Harmattan;
+    margin-right: 66px;
+    /* padding-left: 60px; */
+    margin-top: 18px;
+    color: white;
+    list-style: none;
+}
+
+nav li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding-right: 40px;
+    font-size: 22px;
+}
+
+nav li::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #DBCC48;
+    transition: width .3s;
+}
+
+nav li:hover::after {
+    width: 70%;
+}
+.searchBar {
+    position: absolute;
+    top: 8px;
+    right: 749px;
+    width: 590px;
+    height: 50px;
+    background-color: #ffffff00;
+    border-radius: 15px;
+    z-index: 1;
+}
+
+.searchBar {
+    position: absolute;
+    top: 8px;
+    right: 785px;
+    width: 590px;
+    height: 50px;
+    border-radius: 15px;
+    z-index: 1;
+}
+
+.searchBar input {
+    height: 35px;
+    top: 5px;
+    left: 13px;
+    width: 374px;
+    position: absolute;
+    border-radius: 9px;
+    font-size: 16px;
+}
+
+.searchBar button {
+    position: relative;
+    border-radius: 9px;
+    color: white;
+    background-color: #DBCC48;
+    font-size: 18px;
+    width: 127px;
+    height: 36px;
+    left: 67%;
+    top: 7%;
+    filter: drop-shadow(5px 7px 5px #5a5757a4);
+}
+
+.LogoContainer {
+    position: absolute;
+    background-color: #DBCC48;
+    border-bottom-right-radius: 52px;
+    width: 165px;
+    height: 163px;
+    left: 44px;
+    z-index: 1;
+}
+.LogoContainer img{
+    width:90%
+}
+
+
+
+.Bflight{
+    display: flex;
+    width: 100%;
+    margin-top:20px;
+    height: auto;
+}
+
+.Bflight p {
+    margin-top: 95px;
+    margin-left: 218px;
+    width: 52%;
+    height: auto;
+    font-size: 26px;
+    font-family: cursive;
+    border-top: 2px solid yellow;
+    animation-name: text-enter;
+    animation-direction: alternate;
+}
+
+
+
+
+
+
+@keyframes text-enter {
+    0%{
+
+    }
+    
+}
+
+
+.Bflight h1{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 220px;
+    color: #35743f;
+}
+
+form article{
+    margin: 20px;
+}
+
+
+
+.booking form {
+    padding: 0p;
+    position: absolute;
+    top: 180px;
+    right: 126px;
+    background-color: #35743f;
+    border-radius: 57px;
+    width: 337px;
+    height: 584px;
+}
+.booking label {
+    font-size: 19px;
+    font-family: sans-serif;
+    color: white;
+}
+.booking input, #hotels {
+    border-radius: 11px;
+    height: 58px;
+    width: 91%;
+    margin-left: 13px;
+    margin-top: 18px;
+    font-size: 21px;
+    border: 0;
+    box-shadow: 4px 4px 2px #9e9e9e;
+}
+.booking button {
+    width: 216px;
+    height: 64px;
+    border-radius: 13px;
+    color: rgb(219 204 72);
+    border-style: none;
+    font-size: 38px;
+    margin: 31px 41px;
+    border: 2px solid black;
+}
+
+.videoEthio{
+    width: 400px;
+    height: auto;
+    margin-left: 221px;
+
+}
+footer{
+    position: relative;
+    width: 100vw;
+    height: 200px;
+    background-color: #04733E;
+}
+.contact{
+
+    font-size: 23px;
+    position: absolute;
+    color: white;
+    left: 43px;
+
+}
+
+.Social-icons{
+    display: flex;
+    margin-left: 41%;
+}
+.pic{
+    margin-top: 20px;
+    margin-left: 29px;
+    width: 45px;
+    height: 45px;
+}
+
+
+
+
